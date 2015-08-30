@@ -53,7 +53,11 @@ open terminal in Mac...
 
        \i tournament.sql
 
-7. Note: New tables and view are created in the tournament database and are ready for use by the python files.
+7. Verify that new tables and view are created successfully in the tournament database and are ready for use by the python files:
+
+        select * from players;
+        select * from matches order by winner desc;
+        select * from vw_playerStandings order by wins desc;
 
 8. To test the python files, first open a new tab in the terminal then repeat step #1 above if you're not at the directory where the project files are.
 
