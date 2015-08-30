@@ -1,2 +1,2 @@
 # FullStack
-A Full Stack Nano Degree signed up through Udacity
+Contain projects for Full Stack Nano Degree
