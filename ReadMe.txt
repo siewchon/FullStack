@@ -63,7 +63,9 @@ open terminal in Mac...
 
         python tournament_test.py
 
-11. To verify and authenticate the data in the tournament at any given time, please run following sql statements at the psql command tool:
+11. If you wish to test the function in the tournament.py file one at a time you may comment out all the test functions inside the tournament_test.py file except the particular function that you want to test.
+
+12. To verify and authenticate the data in the tournament at any given time, please run following sql statements at the psql command tool:
 
         select * from players;
         select * from matches order by winner desc;
